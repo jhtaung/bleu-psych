@@ -200,6 +200,15 @@ section#services {
   padding-bottom: 60px;
 }
 
+section#specialties {
+  padding-top: 7rem;
+}
+
+
+section#services-page {
+  background-color: var(--main-bg-light-color);
+}
+
 /* Team */
 section#team {
   background-color: var(--main-bg-light-color);
@@ -224,6 +233,18 @@ section#team {
   height: 2.75rem;
 }
 
+section#team-page {
+  color: black;
+  padding-top: 7rem;
+}
+
+.img-team {
+  text-align:center;
+}
+
+.team-member-row {
+  padding: 7rem 0;
+}
 
 /* Testimonial */
 section#testimonial {
@@ -358,7 +379,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   background-color: var(--main-bg-color);
   color: var(--main-color);
-  text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
